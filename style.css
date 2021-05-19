@@ -1,9 +1,107 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;   
+     
 }
 
-body {
-    background-color: coral;
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: relative;
+    background-color: white;
+    height: 100%;
+}
+
+
+#idLinks nav {
+    align-items: center;
+    display: flex;
+
+}
+
+.a {
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid black;  
+    color: black; 
+    text-decoration: none;
+}
+
+.aLink {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;  
+    color: black; 
+    transition: 0.2s ease-in; 
+}
+
+.aLink:hover {
+    background-color: rgb(105, 105, 105);
+    color: #ffff;
+}
+
+.aLink:active {
+    background-color: rgb(85, 85, 85);
+
+}
+
+.a1 {
+    margin-left: 20px;
+    padding: 5px;
+    border: 1px solid black;  
+    color: black; 
+    text-decoration: none;
+}
+
+.aLinkedin {
+    color: black;
+    transition: 0.2s ease-in;
+}
+
+.aLinkedin:hover {
+    background-color: #1d71b3;
+    color: #ffff;
+}
+
+.aFacebook {
+    color: black;
+    transition: 0.2s ease-in;
+}
+
+.aFacebook:hover {
+    background-color: #0089f5;
+    color: #ffff;
+}
+
+.aInstagram {
+    color: black;
+    transition: 0.2s ease-in;
+    margin-right: 15px;
+
+}
+
+.aInstagram:hover {
+    color: #ffff;
+    background: rgb(81,91,212);
+    background: linear-gradient(90deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 30%, rgba(221,42,123,1) 54%, rgba(254,218,119,1) 77%, rgba(245,133,41,1) 100%);
+}
+
+.aButton {
+    color: black;
+    transition: 0.2s ease-in;
+    margin-right: 15px;
+    padding: 10px 5px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
+
+.aButton:hover{
+    background-color:rgb(78, 9, 78);
+    color: #ffff;
+}
+
+.aButton:active {
+    background-color: rgb(5, 5, 5);
 }

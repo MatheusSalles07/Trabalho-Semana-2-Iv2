@@ -1,0 +1,26 @@
+#sobreMim {
+    text-align: center;
+}
+
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#divSection1 {
+
+    display: flex;
+    margin: 10px 20px;
+}
+
+.classContent1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 15px;
+    margin: 10px;
+}
