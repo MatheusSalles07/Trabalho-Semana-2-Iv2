@@ -1,0 +1,24 @@
+#minhasHabilidades {
+    text-align: center;
+}
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#divSection2{
+    display: flex;
+    margin: 10px 20px;
+}
+
+.divSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.432);    
+}

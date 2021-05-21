@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
-     
 }
 
 #header {
@@ -10,28 +9,27 @@
     justify-content: space-between;
     padding: 1rem 2rem;
     position: relative;
-    background-color: white;
-    height: 100%;
+    background-color: rgb(245, 145, 78);
+    height: 10%;
+    width: 100%;
 }
 
+.classH2 {
+    text-decoration: underline;
+}
+#idNav {
+    display: flex;    
+}
 
-#idLinks nav {
-    align-items: center;
+#idNav nav {
     display: flex;
-
+    align-items: center;
 }
 
-.a {
-    margin-left: 20px;
-    padding: 20px;
-    border: 1px solid black;  
-    color: black; 
-    text-decoration: none;
-}
-
-.aLink {
+.aLink , .a1 {
     text-decoration: none;
     padding: 5px;
+    margin-left: 20px;
     border: 1px solid black;  
     color: black; 
     transition: 0.2s ease-in; 
@@ -47,13 +45,6 @@
 
 }
 
-.a1 {
-    margin-left: 20px;
-    padding: 5px;
-    border: 1px solid black;  
-    color: black; 
-    text-decoration: none;
-}
 
 .aLinkedin {
     color: black;
@@ -95,6 +86,7 @@
     padding: 10px 5px;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .aButton:hover{
@@ -105,3 +97,9 @@
 .aButton:active {
     background-color: rgb(5, 5, 5);
 }
+
+#sections {
+    padding: 20px 0;
+    background-color: rgb(122, 195, 255);
+}
+
