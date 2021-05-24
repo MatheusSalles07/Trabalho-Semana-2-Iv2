@@ -12,11 +12,14 @@
     background-color: rgb(245, 145, 78);
     height: 10%;
     width: 100%;
+    transition: 0.5s background ease;
 }
 
-.classH2 {
+.classH2, .classH4 {
     text-decoration: underline;
 }
+
+
 #idNav {
     display: flex;    
 }
